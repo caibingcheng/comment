@@ -2,9 +2,9 @@ name: Discussion Notification
 
 on:
   discussion_comment:
-    types: [created, edited, deleted]
+    types: [created, edited]
   discussion:
-    types: [created, edited, deleted]
+    types: [created, edited]
 
 jobs:
   send-notification:
